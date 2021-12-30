@@ -96,6 +96,7 @@ Aunque en este trabajo nos centraremos en el tercio del Danubio que tradicionalm
 </CENTER>
 
 Antes de 1890, no se contruyó ningún puente al norte de Budapest debido a que la presencia de bloques de hielo hacía la tarea técnicamente inviable. Sin embargo, una vez los ingenieros idearon la manera de salvar este obstáculo, se construyeron tres puentes en un breve periodo de cuatro años en las ciudades de Pozsony, Komárom y Esztergom, cuyo impacto sobre la demografía de las ciudades próximas veremos a lo largo del trabajo.
+
 <br>
 
 # Los datos
@@ -383,7 +384,8 @@ plot4 <- ggplot(pop5, aes(x = year, y = poblacion)) +
 plot4
 ```
 Efectivamente, el salto es bastante apreciable.
-<br>
+
+         <br>
 
 # Conclusión
 Este trabajo, a pesar de su presentación sencilla de los datos, ha conllevado una gran dedicación para manejar los datos geoespaciales, representarlos y calcular distancias. El paper original ha servido como un buen pretexto. Se obtienen en esencia las mismas conclusiones, aunque las discrepacias en las distancias son un recordatorio de los detalles que deben ser tenidos en cuenta para operar con datos geoespaciales. 
